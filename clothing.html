@@ -7,29 +7,41 @@
         <link rel="stylesheet" href="./style.css"/>
     </head>
     <body>
-        <div class="操作面板">
-            <div class="輸入區域">
-                <p>衣服樣式</p>
-                <input type="radio" id="帽T" name="帽T" value="帽T">
-                <label for="帽T">帽T</label>
-                <input type="radio" id="短T" name="短T" value="短T">
-                <label for="短T">短T</label>
-                <p>衣服顏色</p>
-                <input type="radio" id="白色" name="白色" value="白色">
-                <label for="白色">白色</label>
-                <input type="radio" id="黑色" name="黑色" value="黑色">
-                <label for="黑色">黑色</label>                
-                <input type="radio" id="藍色" name="藍色" value="藍色">
-                <label for="藍色">藍色</label>
-                <input type="radio" id="米色" name="米色" value="米色">
-                <label for="米色">米色</label>    
-                <input type="radio" id="灰色" name="灰色" value="灰色">
-                <label for="灰色">灰色</label>
-                <input type="radio" id="綠色" name="綠色" value="綠色">
-                <label for="綠色">綠色</label><br>
-                <button class="加入">加入</button>    
-            </div>
-            
+        <div class="輸入區域">
+            <p>衣服樣式</p>
+            <input type="radio" id="帽T" name="樣式" value="帽T">
+            <label for="帽T">帽T</label>
+            <input type="radio" id="短T" name="樣式" value="短T">
+            <label for="短T">短T</label>
+            <p>衣服顏色</p>
+            <input type="radio" id="白色" name="顏色" value="白色">
+            <label for="白色">白色</label>
+            <input type="radio" id="黑色" name="顏色" value="黑色">
+            <label for="黑色">黑色</label>                
+            <input type="radio" id="藍色" name="顏色" value="藍色">
+            <label for="藍色">藍色</label>
+            <input type="radio" id="米色" name="顏色" value="米色">
+            <label for="米色">米色</label>    
+            <input type="radio" id="灰色" name="顏色" value="灰色">
+            <label for="灰色">灰色</label>
+            <input type="radio" id="綠色" name="顏色" value="綠色">
+            <label for="綠色">綠色</label>
+            <p>衣服數量</p>
+            <input type="number" id="數量" name="數量" value="數量">
+            <label for="數量">數量</label><br>
+            <button class="加入">加入</button>    
+        </div>   
+        <div class="統計表格">
+            <table id="clothingTable" border="1">
+                <thead>
+                    <tr>
+                        <th>衣服樣式</th>
+                        <th>衣服顏色</th>
+                    </tr>
+                </thead>
+                <tbody>
+                </tbody>
+            </table>
         </div>
         <script src="./script.js"></script>
     </body>
